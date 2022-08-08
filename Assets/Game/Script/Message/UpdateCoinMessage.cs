@@ -1,6 +1,6 @@
 namespace ExampleGame.Message
 {
-    public class UpdateCoinMessage
+    public struct UpdateCoinMessage
     {
         public int Coin { get; private set; }
 
